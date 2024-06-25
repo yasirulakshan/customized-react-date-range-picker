@@ -3,6 +3,7 @@ import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "./CustomDateRangePicker.css"; // Your custom CSS
 import DateInputShowComponent from "../DateInputShowComponent/DateInputShowComponent";
+import CustomHeader from "../CustomHeader/CustomHeader";
 
 interface CustomDateInputProps extends React.HTMLProps<HTMLButtonElement> {
   value?: string;
@@ -51,6 +52,17 @@ const CustomDateRangePicker: React.FC = () => {
       }}
       calendarStartDay={1} // Starts from Monday
       customInput={<CustomDateInput />}
+      renderCustomHeader={(props) => {
+        return (
+          <CustomHeader
+            date={props.date}
+            changeYear={props.changeYear}
+            changeMonth={props.changeMonth}
+            decreaseMonth={props.decreaseMonth}
+            increaseMonth={props.increaseMonth}
+          />
+        );
+      }}
     />
   );
 };
