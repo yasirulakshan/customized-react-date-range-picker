@@ -1,0 +1,22 @@
+            - name: Deploy React to GitHub Pages
+  # You may pin to the exact commit or the version.
+  # uses: bitovi/github-actions-react-to-github-pages@4cf343888989e21112bce7e59156242a0e1defb3
+  uses: bitovi/github-actions-react-to-github-pages@v1.2.4
+  with:
+    # Specifies if this action should checkout the code
+    checkout: # optional, default is true
+    # Partially clone against a given filter. Overrides checkout-sparse-checkout if set. maps to actions/checkout inputs.checkout-filter
+    checkout-filter: # optional
+    # Do a sparse checkout on given patterns. Each pattern should be separated with new lines. maps to actions/checkout inputs.sparse-checkout
+    checkout-sparse-checkout: # optional
+    # Specifies whether to use cone-mode when doing a sparse checkout. maps to actions/checkout inputs.sparse-checkout-cone-mode
+    checkout-sparse-checkout-cone-mode: # optional, default is true
+    # Specifies the path of the static assets after building
+    path: # optional, default is dist
+    # Specifies the command to run the installation.
+    install_command: # optional, default is npm ci
+    # Specifies the command to run after the install command for the build
+    build_command: # optional, default is npm run build
+    # Specifies if the action should cache npm dependencies.
+    caching: # optional
+          
