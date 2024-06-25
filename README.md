@@ -1,5 +1,7 @@
 # Customized React Date Range Picker
 
+## Medium Article - [Customized React Date Range Picker](https://medium.com/@yasiru1999/create-a-custom-date-range-picker-using-react-date-picker-cc65cf0758bf)
+
 This repository contains a custom implementation of a date range picker using React Date Picker library, tailored to fit the design language of Material UI (MUI) components.
 
 ## Overview
@@ -34,4 +36,24 @@ To use this custom date range picker in your project, follow these steps:
    npm run start
    ```
 
-Medium Article - [Customized React Date Range Picker](https://medium.com/@yasiru1999/create-a-custom-date-range-picker-using-react-date-picker-cc65cf0758bf)
+## Customization
+
+You can customize the styles and functionality by modifying the `CustomDateRangePicker.css` and component files according to your project’s needs.
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request or create an issue if you have any suggestions or improvements.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Author
+
+Yasiru Lakshan - [yasirulakshan](https://github.com/yasirulakshan)
+
+## Acknowledgements
+
+- Yasiru, for the initial implementation and article.
+- React Date Picker library contributors. - [React Date Picker](https://reactdatepicker.com/)
+- MUI team for the design components. - [Material UI](https://mui.com/)
