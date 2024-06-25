@@ -50,7 +50,7 @@ const CustomDateRangePicker: React.FC = () => {
         setDateRange(update);
       }}
       calendarStartDay={1} // Starts from Monday
-      customInput={<CustomDateInput />}
+      //   customInput={<CustomDateInput />}
     />
   );
 };
