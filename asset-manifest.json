@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/customized-react-date-range-picker/static/css/main.e38addf2.css",
+    "main.js": "/customized-react-date-range-picker/static/js/main.32a8cc57.js",
+    "static/js/453.ceb0d64b.chunk.js": "/customized-react-date-range-picker/static/js/453.ceb0d64b.chunk.js",
+    "index.html": "/customized-react-date-range-picker/index.html",
+    "main.e38addf2.css.map": "/customized-react-date-range-picker/static/css/main.e38addf2.css.map",
+    "main.32a8cc57.js.map": "/customized-react-date-range-picker/static/js/main.32a8cc57.js.map",
+    "453.ceb0d64b.chunk.js.map": "/customized-react-date-range-picker/static/js/453.ceb0d64b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e38addf2.css",
+    "static/js/main.32a8cc57.js"
+  ]
+}
