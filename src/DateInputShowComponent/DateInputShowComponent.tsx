@@ -24,7 +24,7 @@ const DateInputShowComponent: React.FC<DateInputShowComponentProps> = ({
       onClick={(e) => onClickHandler(e)}
       variant="outlined"
       ref={ref}
-      sx={{ mt: 1 }}
+      sx={{ mt: 1, width: "300px" }}
       size="small"
     />
   );
